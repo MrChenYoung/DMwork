@@ -14,6 +14,10 @@
 		FF957644267CCC6C0099C51F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF957642267CCC6C0099C51F /* LaunchScreen.storyboard */; };
 		FF95764F267CCC6C0099C51F /* DMworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95764E267CCC6C0099C51F /* DMworkTests.swift */; };
 		FF95765A267CCC6C0099C51F /* DMworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF957659267CCC6C0099C51F /* DMworkUITests.swift */; };
+		FF95766B267CCE6D0099C51F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF957669267CCE6D0099C51F /* LoginViewController.swift */; };
+		FF95766E267CEF7E0099C51F /* RegistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95766D267CEF7E0099C51F /* RegistViewController.swift */; };
+		FF957670267CF0500099C51F /* LoginRegistBaseCtr.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF95766F267CF0500099C51F /* LoginRegistBaseCtr.swift */; };
+		FF957674267DCC830099C51F /* LocationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF957673267DCC830099C51F /* LocationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		FF957655267CCC6C0099C51F /* DMworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DMworkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF957659267CCC6C0099C51F /* DMworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DMworkUITests.swift; sourceTree = "<group>"; };
 		FF95765B267CCC6C0099C51F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF957669267CCE6D0099C51F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		FF95766D267CEF7E0099C51F /* RegistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistViewController.swift; sourceTree = "<group>"; };
+		FF95766F267CF0500099C51F /* LoginRegistBaseCtr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginRegistBaseCtr.swift; sourceTree = "<group>"; };
+		FF957673267DCC830099C51F /* LocationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +108,10 @@
 				FF957639267CCC690099C51F /* AppDelegate.swift */,
 				FF95763B267CCC690099C51F /* ViewController.swift */,
 				FF95763D267CCC690099C51F /* Main.storyboard */,
+				FF95766F267CF0500099C51F /* LoginRegistBaseCtr.swift */,
+				FF957669267CCE6D0099C51F /* LoginViewController.swift */,
+				FF95766D267CEF7E0099C51F /* RegistViewController.swift */,
+				FF957673267DCC830099C51F /* LocationController.swift */,
 				FF957640267CCC6C0099C51F /* Assets.xcassets */,
 				FF957642267CCC6C0099C51F /* LaunchScreen.storyboard */,
 				FF957645267CCC6C0099C51F /* Info.plist */,
@@ -256,8 +268,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF95766B267CCE6D0099C51F /* LoginViewController.swift in Sources */,
 				FF95763C267CCC690099C51F /* ViewController.swift in Sources */,
+				FF95766E267CEF7E0099C51F /* RegistViewController.swift in Sources */,
 				FF95763A267CCC690099C51F /* AppDelegate.swift in Sources */,
+				FF957674267DCC830099C51F /* LocationController.swift in Sources */,
+				FF957670267CF0500099C51F /* LoginRegistBaseCtr.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +450,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DMwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +468,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DMwork/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
